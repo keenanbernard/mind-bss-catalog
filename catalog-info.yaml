@@ -6,4 +6,5 @@ spec:
   targets:
     - ./catalog/mind-bss-system.yaml
     - ./catalog/mind-bss-prod.yaml
+    - ./catalog/csr-portal-prod.yaml
     - ./catalog/mind-bss-staging.yaml
