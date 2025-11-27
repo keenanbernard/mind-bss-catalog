@@ -7,13 +7,14 @@ metadata:
   tags:
     - csr
     - production
+  links:
+    - url: https://frontend1-v8.mind.belizetelemedia.net:8443/WebClient/
+      title: CSR Portal (Prod)
+      icon: dashboard
 spec:
   type: website
   lifecycle: production
   system: mind-bss
   owner: btl-product-solutions
   subcomponentOf: mind-bss-prod
-  links:
-    - url: https://frontend1-v8.mind.belizetelemedia.net:8443/WebClient/
-      title: CSR Portal (Prod)
-      icon: dashboard
+
