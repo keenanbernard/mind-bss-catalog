@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: mind-bss-catalog
+spec:
+  targets:
+    - ./catalog/mind-bss-system.yaml
+    - ./catalog/mind-bss-prod.yaml
+    - ./catalog/mind-bss-staging.yaml

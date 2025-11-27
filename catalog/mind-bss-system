@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: mind-bss
+  title: Mind BSS System
+  description: Core BSS ecosystem with CSR, POS, Manager, RM, and configuration apps.
+spec:
+  owner: btl-product-solutions

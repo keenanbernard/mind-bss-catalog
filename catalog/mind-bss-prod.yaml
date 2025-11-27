@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mind-bss-prod
+  title: Mind BSS – Production Environment
+  description: Production environment for BSS apps.
+  tags:
+    - production
+    - bss
+  links:
+    - url: https://frontend1-v8.mind.belizetelemedia.net:8443/WebClient/
+      title: CSR Portal (Prod)
+      icon: dashboard
+    - url: https://frontend1-v8.mind.belizetelemedia.net:8444
+      title: POS System (Prod)
+      icon: dashboard
+    - url: https://frontend1-v8.mind.belizetelemedia.net:8443/MindBill-Manager
+      title: Manager App (Prod)
+      icon: dashboard
+    - url: https://frontend1-v8.mind.belizetelemedia.net:8443/MindBill-ResourceManagement/
+      title: RM Portal (Prod)
+      icon: dashboard
+    - url: https://frontend1-v8.mind.belizetelemedia.net:8443/MINDBill/
+      title: MINDBILL Administration and Management modules (Prod)
+      icon: dashboard
+spec:
+  type: environment
+  lifecycle: production
+  system: mind-bss
+  owner: btl-product-solutions
