@@ -4,9 +4,9 @@ metadata:
   name: mind-bss-prod
   title: Mind BSS – Production Environment
   description: Production environment for BSS apps.
-#  tags:
-#    - production
-#    - bss
+  tags:
+    - production
+    - bss
 #  links:
 #    - url: https://frontend1-v8.mind.belizetelemedia.net:8443/WebClient/
 #      title: CSR Portal (Prod)
