@@ -1,18 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: pos-system-prod
-  title: MINDBILL POS (Prod)
+  name: pos-system-staging
+  title: MINDBILL POS (staging)
   description: Point of Sale system for the Mind BSS production environment.
   tags:
     - pos
-    - production
+    - staging
   links:
     - url: https://stagingfrontend.mind.belizetelemedia.net:8444
-      title: Open POS System (Prod)
+      title: Open POS System (staging)
       icon: dashboard
 spec:
   type: website
-  lifecycle: production
+  lifecycle: staging
   owner: btl-product-solutions
-  subcomponentOf: mind-bss-prod
+  subcomponentOf: mind-bss-staging

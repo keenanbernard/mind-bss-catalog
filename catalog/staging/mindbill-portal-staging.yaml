@@ -1,20 +1,20 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mindbill-admin-prod
-  title: MINDBILL Administration & Management (Prod)
-  description: Administration and management modules for the Mind BSS production environment.
+  name: mindbill-admin-staging
+  title: MINDBILL Administration & Management (staging)
+  description: Administration and management modules for the Mind BSS staging environment.
   tags:
     - mindbill
     - admin
-    - production
+    - staging
   links:
     - url: https://stagingfrontend.mind.belizetelemedia.net:8443/MINDBill/
-      title: Open MINDBILL Admin & Management (Prod)
+      title: Open MINDBILL Admin & Management (staging)
       icon: dashboard
 spec:
   type: website
-  lifecycle: production
+  lifecycle: staging
   owner: btl-product-solutions
-  subcomponentOf: mind-bss-prod
+  subcomponentOf: mind-bss-staging
 

@@ -1,19 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: manager-app-prod
-  title: MINDBILL Manager (Prod)
-  description: Management module for the Mind BSS production environment.
+  name: manager-app-staging
+  title: MINDBILL Manager (staging)
+  description: Management module for the Mind BSS staging environment.
   tags:
     - manager
-    - production
+    - staging
   links:
     - url: https://stagingfrontend.mind.belizetelemedia.net:8443/MindBill-Manager
       title: Open Manager App (Prod)
       icon: dashboard
 spec:
   type: website
-  lifecycle: production
+  lifecycle: staging
   owner: btl-product-solutions
-  subcomponentOf: mind-bss-prod
+  subcomponentOf: mind-bss-staging
 
