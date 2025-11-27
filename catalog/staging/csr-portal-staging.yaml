@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: csr-portal-prod
+  title: MINDBILL CSR (Prod)
+  description: CSR portal for production BSS.
+  tags:
+    - csr
+    - production
+  links:
+    - url: https://stagingfrontend.mind.belizetelemedia.net:8443/WebClient/
+      title: CSR Portal (Prod)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: btl-product-solutions
+  subcomponentOf: mind-bss-prod
+

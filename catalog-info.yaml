@@ -13,3 +13,9 @@ spec:
     - ./catalog/prod/manager-portal-prod.yaml
     - ./catalog/prod/rm-portal-prod.yaml
     - ./catalog/prod/mindbill-portal-prod.yaml
+
+    - ./catalog/prod/csr-portal-staging.yaml
+    - ./catalog/prod/pos-portal-staging.yaml
+    - ./catalog/prod/manager-portal-staging.yaml
+    - ./catalog/prod/rm-portal-staging.yaml
+    - ./catalog/prod/mindbill-portal-staging.yaml

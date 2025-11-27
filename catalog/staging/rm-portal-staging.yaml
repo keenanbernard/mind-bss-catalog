@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rm-portal-prod
+  title: MINDBILL RM (Prod)
+  description: Resource Management portal for the Mind BSS production environment.
+  tags:
+    - rm
+    - production
+  links:
+    - url: https://stagingfrontend.mind.belizetelemedia.net:8443/MindBill-ResourceManagement/
+      title: Open RM Portal (Prod)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: btl-product-solutions
+  subcomponentOf: mind-bss-prod
+

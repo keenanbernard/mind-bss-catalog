@@ -7,22 +7,6 @@ metadata:
   tags:
     - staging
     - bss
-  links:
-    - url: https://stagingfrontend.mind.belizetelemedia.net:8443/WebClient/
-      title: CSR Portal (Prod)
-      icon: dashboard
-    - url: https://stagingfrontend.mind.belizetelemedia.net:8444
-      title: POS System (Prod)
-      icon: dashboard
-    - url: https://stagingfrontend.mind.belizetelemedia.net:8443/MindBill-Manager
-      title: Manager App (Prod)
-      icon: dashboard
-    - url: https://stagingfrontend.mind.belizetelemedia.net:8443/MindBill-ResourceManagement/
-      title: RM Portal (Prod)
-      icon: dashboard
-    - url: https://stagingfrontend.mind.belizetelemedia.net:8443/MINDBill/
-      title: MINDBILL Administration and Management modules (Prod)
-      icon: dashboard
 spec:
   type: environment
   lifecycle: staging
