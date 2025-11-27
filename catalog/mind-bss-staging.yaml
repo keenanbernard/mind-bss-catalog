@@ -27,4 +27,4 @@ spec:
   type: environment
   lifecycle: staging
   system: mind-bss
-  owner: btl-product-solutions
+  owner: COO
