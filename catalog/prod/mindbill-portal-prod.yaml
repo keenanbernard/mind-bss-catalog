@@ -15,7 +15,6 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  system: mind-bss
   owner: btl-product-solutions
   subcomponentOf: mind-bss-prod
 
