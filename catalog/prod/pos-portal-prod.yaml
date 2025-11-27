@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pos-system-prod
+  title: POS System (Prod)
+  description: Point of Sale system for the Mind BSS production environment.
+  tags:
+    - pos
+    - production
+  links:
+    - url: https://frontend1-v8.mind.belizetelemedia.net:8444
+      title: Open POS System (Prod)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  system: mind-bss
+  owner: btl-product-solutions
+  subcomponentOf: mind-bss-prod
