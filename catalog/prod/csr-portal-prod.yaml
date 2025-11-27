@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: csr-portal-prod
-  title: CSR Portal (Prod)
+  title: MINDBILL CSR (Prod)
   description: CSR portal for production BSS.
   tags:
     - csr

@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: pos-system-prod
-  title: POS System (Prod)
+  title: MINDBILL POS (Prod)
   description: Point of Sale system for the Mind BSS production environment.
   tags:
     - pos
