@@ -9,6 +9,7 @@ metadata:
     - manager
     - cm
     - production
+    - apex
   links:
     - url: https://mid.belizetelemedia.net:9443/cm/f?p=100:LOGIN_DESKTOP
       title: Campaign Manager Portal (Prod)

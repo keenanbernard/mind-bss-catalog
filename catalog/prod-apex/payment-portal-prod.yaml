@@ -8,6 +8,7 @@ metadata:
     - payment
     - agent
     - production
+    - apex
   links:
     - url: https://mid.belizetelemedia.net:9443/apex/sd_prod/r/payportal/login_desktop
       title: Agent Payment Portal (Prod)
