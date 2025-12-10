@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cm-apex
-  title: Campaign Manager – Production Environment
-  description: Production environment for Campaign Manager.
+  name: apex-prod
+  title: Apex Sites – Production Environment
+  description: Production environment for Apex Sites.
   tags:
     - production
     - apex

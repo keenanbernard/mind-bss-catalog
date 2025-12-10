@@ -8,8 +8,8 @@ spec:
     - ./catalog/mind-bss-prod.yaml
     - ./catalog/mind-bss-staging.yaml
     - ./catalog/apex-oracle-system.yaml
-
-    - ./catalog/cm-apex.yaml
+    - ./catalog/apex-prod.yaml
+    - ./catalog/prod-apex/campaign-manager-prod.yaml
 
     - ./catalog/prod/csr-portal-prod.yaml
     - ./catalog/prod/pos-portal-prod.yaml

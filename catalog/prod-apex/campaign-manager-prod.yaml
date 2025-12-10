@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cm-portal-prod
+  title: Campaign Manager Portal (Prod)
+  description: Campaign Manager portal for production.
+  tags:
+    - csr
+    - production
+  links:
+    - url: https://mid.belizetelemedia.net:9443/cm/f?p=100:LOGIN_DESKTOP
+      title: Campaign Manager Portal (Prod)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: btl-product-solutions
+  subcomponentOf: apex-prod
+
