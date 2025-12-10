@@ -5,7 +5,9 @@ metadata:
   title: Campaign Manager Portal (Prod)
   description: Campaign Manager portal for production.
   tags:
-    - csr
+    - campaign
+    - manager
+    - cm
     - production
   links:
     - url: https://mid.belizetelemedia.net:9443/cm/f?p=100:LOGIN_DESKTOP

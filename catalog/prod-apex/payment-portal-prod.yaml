@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ap-portal-prod
+  title: Agent Payment Portal (Prod)
+  description: Agent Payment Portal for production.
+  tags:
+    - payment
+    - agent
+    - production
+  links:
+    - url: https://mid.belizetelemedia.net:9443/apex/sd_prod/r/payportal/login_desktop
+      title: Agent Payment Portal (Prod)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: btl-product-solutions
+  subcomponentOf: apex-prod
+
