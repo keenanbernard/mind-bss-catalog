@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cm-apex
+  title: Campaign Manager – Production Environment
+  description: Production environment for Campaign Manager.
+  tags:
+    - production
+    - apex
+spec:
+  type: environment
+  lifecycle: production
+  system: apex-oracle
+  owner: COO

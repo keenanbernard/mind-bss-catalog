@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: apex-oracle
+  title: Internal Apex Sites
+  description: Core Apex ecosystem with Campaign Manager, Agent Payment Portal and other apps.
+spec:
+  owner: COO
