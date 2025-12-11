@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: cm-portal-prod
-  title: Campaign Manager Portal (Prod)
+  title: Apex Site - Campaign Manager Portal (Prod)
   description: Campaign Manager portal for production.
   tags:
     - campaign

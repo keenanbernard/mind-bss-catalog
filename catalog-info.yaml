@@ -12,6 +12,8 @@ spec:
 
     - ./catalog/prod-apex/campaign-manager-prod.yaml
     - ./catalog/prod-apex/payment-portal-prod.yaml
+    - ./catalog/prod-apex/promo-portal-prod.yaml
+    - ./catalog/prod-apex/directory-portal.yaml
 
     - ./catalog/prod/csr-portal-prod.yaml
     - ./catalog/prod/pos-portal-prod.yaml
