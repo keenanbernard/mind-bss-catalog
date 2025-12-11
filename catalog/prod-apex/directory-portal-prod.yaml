@@ -17,4 +17,3 @@ spec:
   lifecycle: production
   owner: btl-product-solutions
   subcomponentOf: apex-prod
-
