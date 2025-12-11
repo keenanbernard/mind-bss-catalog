@@ -10,11 +10,17 @@ spec:
 
     - ./catalog/apex-oracle-system.yaml
     - ./catalog/apex-prod.yaml
+    - ./catalog/apex-test.yaml
 
     - ./catalog/prod-apex/campaign-manager-prod.yaml
     - ./catalog/prod-apex/payment-portal-prod.yaml
     - ./catalog/prod-apex/promo-portal-prod.yaml
     - ./catalog/prod-apex/directory-portal-prod.yaml
+
+    - ./catalog/test-apex/campaign-manager-test.yaml
+    - ./catalog/test-apex/payment-portal-test.yaml
+    - ./catalog/test-apex/promo-portal-test.yaml
+    - ./catalog/test-apex/directory-portal-test.yaml
 
     - ./catalog/prod-mind/csr-portal-prod.yaml
     - ./catalog/prod-mind/pos-portal-prod.yaml

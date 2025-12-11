@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: apex-test
+  title: Apex Sites – Testing Environment
+  description: Testing environment for Apex Sites.
+  tags:
+    - testing
+    - apex
+spec:
+  type: environment
+  lifecycle: testing
+  system: apex-oracle
+  owner: COO

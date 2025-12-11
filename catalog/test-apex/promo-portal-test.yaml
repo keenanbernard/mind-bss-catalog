@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: promo-portal-test
+  title: Apex Site - Promo Portal (Test)
+  description: Promo Portal for testing.
+  tags:
+    - promo
+    - testing
+    - apex
+  links:
+    - url: https://tst.belizetelemedia.net:9443/apex/sd_prod/r/promo-portal/login
+      title: Promo Portal (Test)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: testing
+  owner: btl-product-solutions
+  subcomponentOf: apex-test
+

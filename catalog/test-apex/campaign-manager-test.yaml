@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cm-portal-test
+  title: Apex Site - Campaign Manager Portal (Test)
+  description: Campaign Manager portal for testing.
+  tags:
+    - campaign
+    - manager
+    - cm
+    - testing
+    - apex
+  links:
+    - url: https://tst.belizetelemedia.net:9443/cm/f?p=100:LOGIN_DESKTOP
+      title: Campaign Manager Portal (Test)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: testing
+  owner: btl-product-solutions
+  subcomponentOf: apex-test
+

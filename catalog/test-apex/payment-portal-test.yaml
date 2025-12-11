@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ap-portal-test
+  title: Apex Site - Agent Payment Portal (Test)
+  description: Agent Payment Portal for testing.
+  tags:
+    - payment
+    - agent
+    - testing
+    - apex
+  links:
+    - url: https://tst.belizetelemedia.net:9443/apex/sd_prod/r/payportal/login_desktop
+      title: Agent Payment Portal (Test)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: btl-product-solutions
+  subcomponentOf: apex-test
+

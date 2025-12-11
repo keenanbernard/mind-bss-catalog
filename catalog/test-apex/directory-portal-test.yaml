@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: directory-portal-test
+  title: Apex Site - Directory Portal (Test)
+  description: Directory Portal for testing.
+  tags:
+    - directory
+    - testing
+    - apex
+  links:
+    - url: https://tst.belizetelemedia.net:9443/apex/sd_prod/r/telephone-directory/home
+      title: Directory Portal (Test)
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: testing
+  owner: btl-product-solutions
+  subcomponentOf: apex-test
