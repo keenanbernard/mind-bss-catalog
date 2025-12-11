@@ -7,6 +7,7 @@ spec:
     - ./catalog/mind-bss-system.yaml
     - ./catalog/mind-bss-prod.yaml
     - ./catalog/mind-bss-staging.yaml
+
     - ./catalog/apex-oracle-system.yaml
     - ./catalog/apex-prod.yaml
 
@@ -15,14 +16,14 @@ spec:
     - ./catalog/prod-apex/promo-portal-prod.yaml
     - ./catalog/prod-apex/directory-portal.yaml
 
-    - ./catalog/prod/csr-portal-prod.yaml
-    - ./catalog/prod/pos-portal-prod.yaml
-    - ./catalog/prod/manager-portal-prod.yaml
-    - ./catalog/prod/rm-portal-prod.yaml
-    - ./catalog/prod/mindbill-portal-prod.yaml
+    - ./catalog/prod-mind/csr-portal-prod.yaml
+    - ./catalog/prod-mind/pos-portal-prod.yaml
+    - ./catalog/prod-mind/manager-portal-prod.yaml
+    - ./catalog/prod-mind/rm-portal-prod.yaml
+    - ./catalog/prod-mind/mindbill-portal-prod.yaml
 
-    - ./catalog/staging/csr-portal-staging.yaml
-    - ./catalog/staging/pos-portal-staging.yaml
-    - ./catalog/staging/manager-portal-staging.yaml
-    - ./catalog/staging/rm-portal-staging.yaml
-    - ./catalog/staging/mindbill-portal-staging.yaml
+    - ./catalog/staging-mind/csr-portal-staging.yaml
+    - ./catalog/staging-mind/pos-portal-staging.yaml
+    - ./catalog/staging-mind/manager-portal-staging.yaml
+    - ./catalog/staging-mind/rm-portal-staging.yaml
+    - ./catalog/staging-mind/mindbill-portal-staging.yaml
