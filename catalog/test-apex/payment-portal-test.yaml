@@ -15,7 +15,7 @@ metadata:
       icon: dashboard
 spec:
   type: website
-  lifecycle: production
+  lifecycle: testing
   owner: btl-product-solutions
   subcomponentOf: apex-test
 
